@@ -36,7 +36,7 @@ else
 }
 ```
 
-### output
+### output.txt
 
 ```
 Sentence: char name[]="inso";
