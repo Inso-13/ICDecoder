@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+I:/IDE/CLion/ICDecoder/IAbstractReader.h
+iostream
+-
+fstream
+-
+set
+-
+iomanip
+-
+IDictionary.h
+I:/IDE/CLion/ICDecoder/IDictionary.h
+
+I:/IDE/CLion/ICDecoder/ICharReader.h
+IAbstractReader.h
+I:/IDE/CLion/ICDecoder/IAbstractReader.h
+
+I:/IDE/CLion/ICDecoder/IDictionary.h
+set
+-
+string
+-
+vector
+-
+map
+-
+
+I:/IDE/CLion/ICDecoder/IStringReader.cpp
+IStringReader.h
+I:/IDE/CLion/ICDecoder/IStringReader.h
+
+I:/IDE/CLion/ICDecoder/IStringReader.h
+IAbstractReader.h
+I:/IDE/CLion/ICDecoder/IAbstractReader.h
+ICharReader.h
+I:/IDE/CLion/ICDecoder/ICharReader.h
+
